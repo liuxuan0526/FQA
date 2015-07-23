@@ -1,4 +1,4 @@
-package tools.nlp.chinese;
+package tools.nlp.chinese.stanford;
 
 import java.util.Properties;
 

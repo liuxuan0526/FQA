@@ -1,4 +1,4 @@
-package tools.nlp.chinese;
+package tools.nlp.chinese.stanford;
 
 import edu.stanford.nlp.ie.crf.CRFClassifier;
 import edu.stanford.nlp.util.CoreMap;

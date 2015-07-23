@@ -1,10 +1,10 @@
-package tools.nlp.chinese;
+package tools.nlp.chinese.stanford;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import tools.nlp.chinese.nerdetector.nerReps;
+import tools.nlp.chinese.stanford.nerdetector.nerReps;
 
 public class StringObject {
 	public String rawString = null;

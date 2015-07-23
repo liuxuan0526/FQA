@@ -1,4 +1,4 @@
-package tools.nlp.chinese;
+package tools.nlp.chinese.stanford;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +30,7 @@ public class postagger {
 			buffer.append(s+" ");
 		}
 		Tree tree=lp.parse(buffer.toString());
+		tree.pennPrint();
 		List<String> list=new ArrayList<String>();
 		dfs(tree,list);
 		String[] ret=new String[list.size()];
